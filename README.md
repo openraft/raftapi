@@ -1,2 +1,3 @@
 # raftapi
-Raft Server API
+
+Raft Service API
