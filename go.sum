@@ -815,8 +815,8 @@ github.com/spaolacci/murmur3 v0.0.0-20180118202830-f09979ecbc72/go.mod h1:JwIasO
 github.com/spf13/afero v1.3.3/go.mod h1:5KUK8ByomD5Ti5Artl0RtHeI5pTF7MIDuXL3yY520V4=
 github.com/spf13/afero v1.6.0/go.mod h1:Ai8FlHk4v/PARR026UzYexafAt9roJ7LcLMAmO6Z93I=
 github.com/spf13/afero v1.9.2/go.mod h1:iUV7ddyEEZPO5gA3zD4fJt6iStLlL+Lg4m2cihcDf8Y=
-github.com/sprintframework/sprint v1.3.0 h1:fsrI6E66UlUClN3AWdgcJcDg0Ydy29ZN4NZIbLupJMM=
-github.com/sprintframework/sprint v1.3.0/go.mod h1:ssu7bTol76CG/yAEa2kDU990+4j3kNTCsGvowbIo6+I=
+github.com/sprintframework/sprint v1.3.1 h1:OUVFBhJ/dbgom4uoK831lE6rvGNf361cKL2w+xt/hAs=
+github.com/sprintframework/sprint v1.3.1/go.mod h1:ssu7bTol76CG/yAEa2kDU990+4j3kNTCsGvowbIo6+I=
 github.com/sprintframework/sprintpb v1.3.0 h1:QVdhSOprZWwgXhu9aBiNHBlnl42SflaU+MX5e24+yKo=
 github.com/sprintframework/sprintpb v1.3.0/go.mod h1:Cuk1DcfvNYTjWJ2xqutDZmRmhwN+FRrAYGkV5dT8mio=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

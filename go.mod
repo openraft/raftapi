@@ -6,7 +6,7 @@ require (
 	github.com/codeallergy/glue v1.1.0
 	github.com/hashicorp/raft v1.5.0
 	github.com/openraft/raftpb v1.2.0
-	github.com/sprintframework/sprint v1.3.0
+	github.com/sprintframework/sprint v1.3.1
 	google.golang.org/grpc v1.53.0
 )
 
