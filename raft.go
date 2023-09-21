@@ -10,6 +10,7 @@ import (
 	"github.com/sprintframework/sprint"
 	"github.com/openraft/raftpb"
 	"github.com/hashicorp/raft"
+	"github.com/hashicorp/serf/serf"
 	"google.golang.org/grpc"
 	"reflect"
 )
@@ -60,5 +61,9 @@ type RaftServer interface {
 	Transport() (raft.Transport, bool)
 
 	Raft() (*raft.Raft, bool)
+
+	IsLeader() bool
+
+	Serf() (*serf.Serf, bool)
 
 }
