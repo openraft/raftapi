@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/hashicorp/serf/cmd/serf/command/agent"
 	"github.com/hashicorp/serf/serf"
-	"github.com/openraft/raftpb"
+	"github.com/sprintframework/raftpb"
 	"github.com/sprintframework/sprint"
 	"google.golang.org/grpc"
 	"reflect"

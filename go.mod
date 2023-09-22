@@ -1,4 +1,4 @@
-module github.com/openraft/raftapi
+module github.com/sprintframework/raftapi
 
 go 1.17
 
@@ -6,8 +6,8 @@ require (
 	github.com/codeallergy/glue v1.1.0
 	github.com/hashicorp/raft v1.5.0
 	github.com/hashicorp/serf v0.10.1
-	github.com/openraft/raftpb v1.2.0
-	github.com/sprintframework/sprint v1.3.1
+	github.com/sprintframework/raftpb v1.2.10
+	github.com/sprintframework/sprint v1.3.7
 	google.golang.org/grpc v1.53.0
 )
 
