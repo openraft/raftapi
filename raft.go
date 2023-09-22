@@ -7,10 +7,11 @@ package raftapi
 
 import (
 	"github.com/codeallergy/glue"
-	"github.com/sprintframework/sprint"
-	"github.com/openraft/raftpb"
 	"github.com/hashicorp/raft"
+	"github.com/hashicorp/serf/cmd/serf/command/agent"
 	"github.com/hashicorp/serf/serf"
+	"github.com/openraft/raftpb"
+	"github.com/sprintframework/sprint"
 	"google.golang.org/grpc"
 	"reflect"
 )
@@ -64,6 +65,18 @@ type RaftServer interface {
 
 	IsLeader() bool
 
+}
+
+var SerfServerClass = reflect.TypeOf((*SerfServer)(nil)).Elem()
+
+type SerfServer interface {
+	sprint.Server
+	sprint.Component
+
+	Config() (*serf.Config, bool)
+
 	Serf() (*serf.Serf, bool)
+
+	Agent() (*agent.Agent, bool)
 
 }
