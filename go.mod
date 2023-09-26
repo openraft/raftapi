@@ -3,11 +3,11 @@ module github.com/sprintframework/raftapi
 go 1.17
 
 require (
-	github.com/codeallergy/glue v1.1.0
+	github.com/codeallergy/glue v1.1.3
 	github.com/hashicorp/raft v1.5.0
 	github.com/hashicorp/serf v0.10.1
 	github.com/sprintframework/raftpb v1.2.10
-	github.com/sprintframework/sprint v1.3.8
+	github.com/sprintframework/sprint v1.3.14
 	google.golang.org/grpc v1.53.0
 )
 
